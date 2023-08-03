@@ -1,0 +1,22 @@
+.playingARea {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    /* border: 1px solid rgb(0, 0, 0); */
+    margin: 2rem;
+}
+
+.images {
+    /* border: 1px solid red; */
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+
+}
+
+.images img {
+    aspect-ratio: 3/2;
+    width: 70%;
+    object-fit: contain;
+    cursor: pointer;
+}

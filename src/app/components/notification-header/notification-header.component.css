@@ -1,0 +1,27 @@
+.titles {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+ 
+    
+}
+
+.titles button{
+    color: red;
+    background-color: rgb(203, 255, 203);
+    cursor: pointer;
+    padding: .5rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.nav{
+    background-color: aquamarine;
+}

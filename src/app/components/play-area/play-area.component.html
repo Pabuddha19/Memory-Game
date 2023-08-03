@@ -1,0 +1,11 @@
+<!-- <div *ngIf="currentScore==0"> Rule: don't chose the photo twice. </div> -->
+
+<div style="display: grid; place-items: center; height: 80vh;">
+    <div class="playingARea">
+        <div class="images" *ngFor="let item of marvels.slice(0, 12)">
+
+            <img #selectedPhoto (click)="onClickOnPhoto(item.id)" src="../../assets/m{{item.id}}.jpeg">
+
+        </div>
+    </div>
+</div>
